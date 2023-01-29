@@ -23,63 +23,81 @@ Program Python dan bersifat Self-Service
 Fungsi ini akan digunakan untuk men-generate ID_Transaksi yang dibuat. Fungsi ini menggunakan module Random dan Date ID_Transaksi terdiri dari 6 random number,
 4 random number tambahan, dan tanggal.
 
+![id_transaksi](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/Id%20Transaksi.jpg?raw=true)
 
 2. title(): 
 Digunaka untuk membuat tampilan header
 
+![title](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/Title.jpg?raw=true)
 
 3. nama(): 
 Memiliki fungsi untuk meng-input nama pelanggan dan nantinya akan di-display
 
+![nama](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/Nama.jpg?raw=true)
 
 4. belanjaan(): 
 Untuk customer meng-input nama barang, jumlah, dan harga belanjaan. Fungsi ini memiliki 3 parameter, paramameter Nama berupa string,
 parameter Jumlah berupa integer, dan parameter Harga berupa Integer.
 
+![belanjaan](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/Belanjaan.jpg?raw=true)
 
 5. belanjaan2(): 
 Berfungsi sebagai konfirmasi tambahan barang belanja (multiple item). Parameter dari fungsi ini hanya 2 (True/False)
 
+![belanjaan2](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/belanjaan2.jpg?raw=true)
 
 6. fungsi_keranjang(): 
 Digunakan untuk menggabungkan variable belanjaan menjadi dictionary.
 
+![fungsi_keranjang](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/fungsi%20keranjang.jpg?raw=true)
 
 7. keranjang_belanja(): 
 Fungsi ini akan men-display pesanan pelanggan
 
+![keranjang_belanja](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/keranjang%20belanja.jpg?raw=true)
 
 8. ganti_nama(): 
 Untuk mengganti nama barang belanjaan jika terjadi kesalahan pada input. Fungsi ini memiliki 2 Parameter.
 Parameter Nama_Lama berupa string, dan parameter Nama_Baru berupa string
 
+![ganti_nama](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/ganti%20nama.jpg?raw=true)
 
 9. ganti_jumlah(): 
 Memiliki fungsi untuk mengganti jumlah barang belanjaan jika terjadi kesalahan pada input jumlah barang. Fungsi ini memiliki
 2 parameter, parameter Nama_Barang berupa string, parameter Jumlah_Baru berupa integer
 
+![ganti_jumlah](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/ganti%20jumlah.jpg?raw=true)
 
 10. ganti_harga(): 
 Memiliki fungsi untuk mengganti harga barang belanjaan jika terjadi kesalahan pada input harga barang. Fungsi ini memiliki
 2 parameter, parameter Nama_Barang berupa string, parameter Harga_Baru berupa integer
 
+![ganti_harga](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/ganti%20harga.jpg?raw=true)
 
 11. hapus_barang(): 
 Berfungsi untuk menghapus barang belanjaan. Fungsi ini menggunakan method .pop()
 
+![hapus_barang](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/hapus%20barang.jpg?raw=true)
 
 12. tambah_barang(): 
 Fungsi ini digunakan untuk menambah barang belanjaan. Memiliki 3 parameter, yaitu Nama_Barang berupa string, Jumlah_Barang
 berupa integer, dan Harga_Barang berupa integer
 
+![tambah_barang](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/tambah%20barang.jpg?raw=true)
 
 13. konfirmasi_pesanan(): 
 Fungsi ini berguna untuk mengkonfirmasi kesesuaian pesanan / ingin mengubah pesanan Dengan Boolean (True/False)
 
+![konfirmasi_pesanan](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/konfirmasi%20pesanan.jpg?raw=true)
+
+Mengantisipasi jika jawaban yang di-input tidak sesuai dengan pilihan
+![konfirmasi_pesanan](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/konfirmasi%20pesanan%202.jpg?raw=true)
 
 14. belanja_final(): 
 Menghitung total belanja setelah menerapkan suatu kriteria, berupa diskon yang nantinya akan mengurangi total harga belanjaan.
 Menggunakan boolean (True/False) pada setiap kriteria
+
+![belanja_final](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/belanja%20final.jpg?raw=true)
 
 # Deskripsi Task
 1. Module 'Cashier.py' memuat variable - variable dan function yang digunakan untuk membuat program self-service Cashier
