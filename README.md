@@ -47,4 +47,17 @@ Program Python dan bersifat Self-Service
 Test Case 1 : Menambahkan 2 item
 1. Ayam Goreng Qty : 2 Harga : 20000
 2. Pasta Gigi Qty : 3 Harga : 15000
+
 ![Test_Case1](https://github.com/farhanamrin/Cashier-Project/blob/main/Test%20Case%201.png?raw=true)
+
+Test Case 2 : Menghapus Item
+
+![Test_Case2](https://github.com/farhanamrin/Cashier-Project/blob/main/Test%20Case%202.png?raw=true)
+
+Test Case 3 : Menghapus Keranjang
+
+![Test_Case3](https://github.com/farhanamrin/Cashier-Project/blob/main/Test%20Case%203.png?raw=true)
+
+Test Case 4 : Menampilkan Output Belanjaan
+
+![Test_Case4](https://github.com/farhanamrin/Cashier-Project/blob/main/Test%20Case%204.png?raw=true)
