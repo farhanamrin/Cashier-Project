@@ -43,7 +43,7 @@ yang akan menampikan total harga belanja setelah kalkulasi (PPN/Diskon).
 ![fase_ketiga](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/fase%20ketiga.jpg?raw=true)
 
 Pada fase ini, pembeli juga masih bisa menghapus atau mengubah belanjaan yang dibuat
-![fase_ketiga2] (https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/fase%20ketiga.jpg?raw=true)
+![fase_ketiga2](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/fase%20ketiga.jpg?raw=true)
 
 Jika pembeli memilih melanjutkan, akan diminta melakukan pembayaran. Nantinya akan di-display Id_transaksi beserta tanggal dan waktu
 ![pembayaran](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/pembayaran.jpg?raw=true)
