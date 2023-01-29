@@ -95,7 +95,7 @@ Test Case 1 : Menambahkan 2 item
 1. Ayam Goreng Qty : 2 Harga : 20000
 2. Pasta Gigi Qty : 3 Harga : 15000
 
-![Test_Case1]((https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/Test%20Case%201.jpg?raw=true))
+![Test_Case1](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/Test%20Case%201.jpg?raw=true)
 
 Test Case 2 : Menghapus Item
 
