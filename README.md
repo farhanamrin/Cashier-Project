@@ -18,6 +18,36 @@ Program Python dan bersifat Self-Service
 3. Mengaplikasi pembuatan program yang berbasi fungsi (Function)
 4. Mengaplikasi penulisan code yang bersih (Clean Code), mengacu pada PEP 8
 
+# Alur Code Program 
+1. Fase Pertama
+Pada fase ini disimulasikan pembeli datang ke cashier dan melakukan self-checkout. Pembeli menginput nama, kemudian menginput barang, jumlah
+dan harga belanjaan yang akan dibeli.
+
+![fase_pertama](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/fase%20pertama.jpg?raw=true)
+
+2. Fase Kedua
+Pada fase ini diasumsikan pembeli sudah meng-input barang belanjaannya. Kemudian pembeli bisa memilih untuk melanjutkan prosess atau
+membatalkan belanjaannya. 
+Jika melanjutkan, pembeli daftar belanja akan di-display(output) untuk kemudian bisa diubah jika terjadi kesalahanpada belanjaannya. 
+
+![fase_kedua](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/fase%20kedua.jpg?raw=true)
+
+Jika memilih tidak melanjutkan, maka keranjang belanja akan dikosongkan.
+
+![fase_kedua2](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/fase%20kedua%202.jpg?raw=true)
+
+3. Fase Ketiga
+Di fase ini, diasumsikan pembeli sudah mengubah kesalahan pada belanjanya. Kemudian pembeli memilih untuk melanjutkan ke proses pembayaran
+yang akan menampikan total harga belanja setelah kalkulasi (PPN/Diskon). 
+
+![fase_ketiga](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/fase%20ketiga.jpg?raw=true)
+
+Pada fase ini, pembeli juga masih bisa menghapus atau mengubah belanjaan yang dibuat
+![fase_ketiga2] (https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/fase%20ketiga.jpg?raw=true)
+
+Jika pembeli memilih melanjutkan, akan diminta melakukan pembayaran. Nantinya akan di-display Id_transaksi beserta tanggal dan waktu
+![pembayaran](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/pembayaran.jpg?raw=true)
+
 # Fungsi yang akan digunakan di dalam Program Cashier
 1. id_transaksi(): 
 Fungsi ini akan digunakan untuk men-generate ID_Transaksi yang dibuat. Fungsi ini menggunakan module Random dan Date ID_Transaksi terdiri dari 6 random number,
