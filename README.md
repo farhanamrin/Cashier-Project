@@ -19,20 +19,67 @@ Program Python dan bersifat Self-Service
 4. Mengaplikasi penulisan code yang bersih (Clean Code), mengacu pada PEP 8
 
 # Fungsi yang akan digunakan di dalam Program Cashier
-1. id_transaksi(): Fungsi ini akan digunakan untuk men-generate ID_Transaksi yang dibuat
-2. title(): digunaka untuk membuat tampilan header
-3. nama(): memiliki fungsi untuk meng-input nama pelanggan
-4. belanjaan(): untuk customer meng-input nama barang, jumlah, dan harga belanjaan
-5. belanjaan2(): berfungsi sebagai konfirmasi tambahan barang belanja (multiple item)
-6. fungsi_keranjang(): digunakan untuk menggabungkan variable belanjaan menjadi dictionary 
-7. keranjang_belanja(): fungsi ini akan men-display pesanan pelanggan
-8. ganti_nama(): untuk mengganti nama barang belanjaan
-9. ganti_jumlah(): memiliki fungsi untuk mengganti jumlah barang belanjaan
-10. ganti_harga(): digunakan untuk mengganti harga belanjaan
-11. hapus_barang(): berfungsi untuk menghapus barang belanjaan
-12. tambah_barang(): akan digunakan untuk menambah barang belanjaan
-13. konfirmasi_pesanan(): mengkonfirmasi kesesuaian pesanan / ingin mengubah pesanan
-14. belanja_final(): menghitung total belanja setelah menerapkan suatu kriteria
+1. id_transaksi(): 
+Fungsi ini akan digunakan untuk men-generate ID_Transaksi yang dibuat. Fungsi ini menggunakan module Random dan Date ID_Transaksi terdiri dari 6 random number,
+4 random number tambahan, dan tanggal.
+
+
+2. title(): 
+Digunaka untuk membuat tampilan header
+
+
+3. nama(): 
+Memiliki fungsi untuk meng-input nama pelanggan dan nantinya akan di-display
+
+
+4. belanjaan(): 
+Untuk customer meng-input nama barang, jumlah, dan harga belanjaan. Fungsi ini memiliki 3 parameter, paramameter Nama berupa string,
+parameter Jumlah berupa integer, dan parameter Harga berupa Integer.
+
+
+5. belanjaan2(): 
+Berfungsi sebagai konfirmasi tambahan barang belanja (multiple item). Parameter dari fungsi ini hanya 2 (True/False)
+
+
+6. fungsi_keranjang(): 
+Digunakan untuk menggabungkan variable belanjaan menjadi dictionary.
+
+
+7. keranjang_belanja(): 
+Fungsi ini akan men-display pesanan pelanggan
+
+
+8. ganti_nama(): 
+Untuk mengganti nama barang belanjaan jika terjadi kesalahan pada input. Fungsi ini memiliki 2 Parameter.
+Parameter Nama_Lama berupa string, dan parameter Nama_Baru berupa string
+
+
+9. ganti_jumlah(): 
+Memiliki fungsi untuk mengganti jumlah barang belanjaan jika terjadi kesalahan pada input jumlah barang. Fungsi ini memiliki
+2 parameter, parameter Nama_Barang berupa string, parameter Jumlah_Baru berupa integer
+
+
+10. ganti_harga(): 
+Memiliki fungsi untuk mengganti harga barang belanjaan jika terjadi kesalahan pada input harga barang. Fungsi ini memiliki
+2 parameter, parameter Nama_Barang berupa string, parameter Harga_Baru berupa integer
+
+
+11. hapus_barang(): 
+Berfungsi untuk menghapus barang belanjaan. Fungsi ini menggunakan method .pop()
+
+
+12. tambah_barang(): 
+Fungsi ini digunakan untuk menambah barang belanjaan. Memiliki 3 parameter, yaitu Nama_Barang berupa string, Jumlah_Barang
+berupa integer, dan Harga_Barang berupa integer
+
+
+13. konfirmasi_pesanan(): 
+Fungsi ini berguna untuk mengkonfirmasi kesesuaian pesanan / ingin mengubah pesanan Dengan Boolean (True/False)
+
+
+14. belanja_final(): 
+Menghitung total belanja setelah menerapkan suatu kriteria, berupa diskon yang nantinya akan mengurangi total harga belanjaan.
+Menggunakan boolean (True/False) pada setiap kriteria
 
 # Deskripsi Task
 1. Module 'Cashier.py' memuat variable - variable dan function yang digunakan untuk membuat program self-service Cashier
