@@ -44,3 +44,7 @@ Program Python dan bersifat Self-Service
 4. Jalankan kembali 'Cashier.py' di terminal untuk menjalankannya lagi
 
 # Hasil Test Case
+Test Case 1 : Menambahkan 2 item
+1. Ayam Goreng Qty : 2 Harga : 20000
+2. Pasta Gigi Qty : 3 Harga : 15000
+![Test_Case1](https://github.com/farhanamrin/Cashier-Project/blob/main/Test%20Case%201.png?raw=true)
