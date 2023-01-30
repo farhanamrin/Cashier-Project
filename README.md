@@ -129,6 +129,11 @@ Menggunakan boolean (True/False) pada setiap kriteria
 
 ![belanja_final](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/belanja%20final.jpg?raw=true)
 
+15. total_belanja():
+Menghitung total harga belanja yang dipesan customer
+
+![total_belanja](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/total%20belanja.jpg?raw=true)
+
 # Deskripsi Task
 1. Module 'Cashier.py' memuat variable - variable dan function yang digunakan untuk membuat program self-service Cashier
 
