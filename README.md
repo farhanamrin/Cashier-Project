@@ -105,7 +105,7 @@ Memiliki fungsi untuk mengganti harga barang belanjaan jika terjadi kesalahan pa
 ![ganti_harga](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/ganti%20harga.jpg?raw=true)
 
 11. hapus_barang(): 
-Berfungsi untuk menghapus barang belanjaan. Fungsi ini menggunakan method .pop()
+Berfungsi untuk menghapus barang belanjaan. Fungsi ini menggunakan method del
 
 ![hapus_barang](https://github.com/farhanamrin/Cashier-Project/blob/main/Doc/hapus%20barang.jpg?raw=true)
 
